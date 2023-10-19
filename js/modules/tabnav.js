@@ -9,8 +9,8 @@ export default function initiTabNav() {
       tabContent.forEach((section) => {
         section.classList.remove("ativo")
       })
-      const direcao = tabContent[index].dataset.anime
-      tabContent[index].classList.add("ativo", direcao)
+      const direction = tabContent[index].dataset.anime
+      tabContent[index].classList.add("ativo", direction)
     }
 
     tabMenu.forEach((itemMenu, index) => {

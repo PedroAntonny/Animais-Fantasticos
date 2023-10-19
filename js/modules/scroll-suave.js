@@ -1,5 +1,5 @@
 export default function initScrollSuave() {
-  const linksInternos = document.querySelectorAll('[data-menu="suave"] a[href^="#"]')
+  const linksInternal = document.querySelectorAll('[data-menu="suave"] a[href^="#"]')
 
   function scrollToSection(event) {
     event.preventDefault()
@@ -17,7 +17,7 @@ export default function initScrollSuave() {
     // })
   }
 
-  linksInternos.forEach((link) => {
+  linksInternal.forEach((link) => {
     link.addEventListener("click", scrollToSection)
   })
 }

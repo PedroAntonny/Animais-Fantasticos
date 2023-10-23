@@ -59,23 +59,6 @@ body {
   position: relative;
 }
 
-.btnlogin::after {
-  content: "→";
-  position: absolute;
-  top: 15px;
-  right: -8px;
-  animation: seta 0.5s ease-in 0s infinite alternate;
-}
-
-@keyframes seta {
-  from {
-    right: -8px;
-  }
-  to {
-    right: -20px;
-  }
-}
-
 .grid-section {
   grid-column: 2 / 4;
   width: 100%;

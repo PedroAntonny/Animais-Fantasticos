@@ -2,6 +2,42 @@
   display: none;
 }
 
+.btnlogin::after {
+  content: "→";
+  position: absolute;
+  top: 15px;
+  right: -8px;
+  animation: seta 0.5s ease-in 0s infinite alternate;
+}
+
+@keyframes seta {
+  from {
+    right: -8px;
+  }
+  to {
+    right: -20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .btnlogin::after {
+  content: "→";
+  position: absolute;
+  top: 15px;
+  right: 70px;
+  animation: seta 0.5s ease-in 0s infinite alternate;
+}
+
+@keyframes seta {
+  from {
+    right: 70px;
+  }
+  to {
+    right: 55px;
+  }
+}
+}
+
 @media (max-width: 700px) {
   .js [data-menu="button"] {
     display: flex;

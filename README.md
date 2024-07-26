@@ -74,7 +74,6 @@ Requisitos necessários para rodar o projeto:<br>
 
 `Webpack` `Babel` `ESLint` `Git`
 
-
 ## Installation
 
 Para rodar o projeto em seu computador você tera que fazer o [fork](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) do repositório. Caso você não saiba como fazer, estou deixando um **link** da documentação oficial do gitHub, onde é esclarecido como fazer esse processo.<br> Fazendo esse processo você tera uma copia desse Repositório no seu GitHub.
@@ -131,7 +130,7 @@ npm run dev
 </br>
 </br>
 
-<img src="./public/print-project.png" alt="Print do Projeto"/>
+<img src="./img/print-project.png" alt="Print do Projeto"/>
 </h3>
 
  <div align="center">
